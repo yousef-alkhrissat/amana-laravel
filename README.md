@@ -3,6 +3,7 @@ prerequisites:
     2- composer2.3 or higher 
     3- pdo_pgsql extension active in your php.ini
     4- active postgresql database
+    5- NodeJs 18+, npm 8+
 
 To run this project:
     1- copy .env.example into .env
