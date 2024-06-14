@@ -7,8 +7,9 @@ prerequisites:
 To run this project:
     1- copy .env.example into .env
     2- change DB credentials (DB_CONNECTION=pgsql, DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD) into your active database
-    3- run php artisan migrate
-    4- run php artisan serve
+    3- run composer install
+    4- run php artisan migrate
+    5- run php artisan serve
 
 Now that your app is active, you can try these APIs
 requires authentication means it needs the Authorization header with a bearer token as follows "Bearer {access token from login API}"
