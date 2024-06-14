@@ -23,3 +23,8 @@ Authentication APIs:
 
     1- POST /api/auth/login: Login with credentials to obtain an access token.
     2- POST /api/auth/register: Register a new user.
+
+
+
+Get the view: 
+    Get /dashboard/{name}: The name is a variable where you can use your name like /dashboard/yousef 
